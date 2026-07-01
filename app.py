@@ -34,6 +34,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+    #MainMenu {visibility: hidden;}
+    header[data-testid="stHeader"] {display: none;}
+    footer {visibility: hidden;}
+    .stDeployButton {display: none;}
+</style>
+""", unsafe_allow_html=True)
+
 MARIGOLD = "#E8A33D"
 ROSE     = "#C4544B"
 GOLD     = "#D4AF37"
